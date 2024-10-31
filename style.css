@@ -1,0 +1,82 @@
+
+/* 배너슬라이드 */
+html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 700px;
+    }
+
+    .mainSwiper .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .mainSwiper .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* 뉴슬라이드 */
+
+    .new {
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .new .swiper {
+        width: 1200px;
+        height: 500px;
+      }
+  
+    .newSwiper .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #f30000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      .newSwiper .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      @media screen and (max-width:480px) {
+        .new {
+            width: 90%;
+            margin: 0 auto;
+        }
+        .new .swiper {
+            width: 100%;
+            height: 500px;
+          }
+      
+        .newSwiper .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #f30000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+      
+          .newSwiper .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+      }
